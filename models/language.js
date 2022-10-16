@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 const { Schema } = mongoose 
 
-// schema:
+// schemas:
 const languageSchema = new Schema({
     name: { type: String, required: true },
     greeting: String,
